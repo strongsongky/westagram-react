@@ -20,7 +20,7 @@ loginId.addEventListener("keyup", color);
 loginPw.addEventListener("keyup", color);
 loginBtn.addEventListener("click", moveToMain);*/
 
-import "./Login.css";
+import "./Login.scss";
 
 function Login() {
   return (
