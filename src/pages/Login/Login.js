@@ -19,7 +19,8 @@ function moveToMain() {
 loginId.addEventListener("keyup", color);
 loginPw.addEventListener("keyup", color);
 loginBtn.addEventListener("click", moveToMain);*/
-
+import React from "react";
+import Signup from "./Signup";
 import "./Login.scss";
 
 function Login() {
@@ -48,9 +49,7 @@ function Login() {
             name="id"
             placeholder="비밀번호"
           />
-          <button id="LOGIN_BTN" className="login_btn" type="button" disabled>
-            로그인
-          </button>
+          <Signup />
         </form>
         <a className="login_bottom" href=" ">
           비밀번호를 잊으셨나요?
